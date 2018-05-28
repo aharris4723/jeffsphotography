@@ -2,6 +2,19 @@
     padding: 0px;
     margin:0px;
 }
+body{
+  height:100%; 
+  width:100%;
+  background-color: black;
+  background-size: 100%;
+  background-image: url('background.png');
+  background-position: cover;
+  background-color: black;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 8s;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,7 +23,10 @@ ul {
     background-color: #333;
 }
 
-
+li a{
+  text-decoration: none;
+  color:white;
+}
 
 
 li{
@@ -22,14 +38,14 @@ li{
 }
 
 /* Change the link color to #111 (black) on hover */
-li :hover {
+li a :hover {
     background-color: #111;
 }
 .wrapper {
-  height: 600px;
+  height: 100%;
   width: 100%;
   /*background-color: black;*/
-  background-size: 100% 150%;
+ /* background-size: 100%;*/
   background-image: url('background.png');
   background-position: cover;
    background-color: black;
