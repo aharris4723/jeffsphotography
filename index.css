@@ -2,7 +2,7 @@
     padding: 0px;
     margin:0px;
 }
-body{
+#home-body{
   height:100%; 
   width:100%;
   background-color: black;
@@ -59,7 +59,7 @@ li a :hover {
   padding-top: 10px;
   /*margin-top: 50px;*/
 }
-h1{
+#title-h1{
     font-family: 'Limelight', cursive;
     font-size: 70pt;
     color: red;
@@ -95,3 +95,41 @@ h1{
     from {background-color: black;}
     to {background-color: white;}
 }
+/* about me styling*/
+#aboutme-body{
+  background-color: black;
+}
+#picture{
+  background-image:url('dadsphoto.jpeg'); 
+  background-position: cover;
+  background-size: 100%;
+  height: 400px;
+  width: 400px;
+  /*margin-top: 2%;*/
+  margin-left: 40%;
+  border-radius: 50%;
+
+}
+#about-h1{
+  font-family: 'Limelight', cursive;
+    font-size: 70pt;
+    color: red;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
